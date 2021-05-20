@@ -3,7 +3,7 @@
 }
 
 .works__list {
-  display: flex;
+  @extend %flex;
 }
 
 .works__list-margin {
@@ -24,7 +24,7 @@
 
 .works__overlay {
   position: absolute;
-  display: flex;
+  @extend %flex;
   justify-content: center;
   align-items: center;
   width: 100%;

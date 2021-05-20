@@ -10,12 +10,12 @@
 }
 
 .subscribe-container {
-  display: flex;
+  @extend %flex;
   align-items: center;
 }
 
 .subscribe__email {
-  display: flex;
+  @extend %flex;
   align-self: stretch;
   padding: 15px 16px 15px 16px;
   min-width: 358px;
@@ -44,7 +44,7 @@
 }
 
 .subscribe__button {
-  display: flex;
+  @extend %flex;
 
   padding: 13px 28px;
   align-items: center;
@@ -67,7 +67,7 @@
 }
 
 .subscribe__icon {
-  display: flex;
+  @extend %flex;
   align-self: center;
   fill: var(--alt-title-color);
 }

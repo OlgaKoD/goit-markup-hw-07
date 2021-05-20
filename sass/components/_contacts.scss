@@ -1,9 +1,9 @@
 .contacts {
-  display: flex;
+  @extend %flex;
 }
 
 .contacts__link {
-  display: flex;
+  @extend %flex;
   position: relative;
   align-items: center;
   padding-top: 32px;

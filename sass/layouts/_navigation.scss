@@ -3,11 +3,11 @@
 }
 
 /*.navigation__pages--flexed {
-  display: flex;
+  @extend %flex;
 }*/
 
 .navigation__pages {
-  display: flex;
+  @extend %flex;
   position: relative;
   font-weight: 500;
   letter-spacing: 0.02em;

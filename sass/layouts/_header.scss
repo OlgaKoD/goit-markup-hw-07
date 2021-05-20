@@ -3,6 +3,6 @@
 }
 
 .header-container {
-  display: flex;
+  @extend %flex;
   align-items: center;
 }

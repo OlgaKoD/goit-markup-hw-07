@@ -1,5 +1,5 @@
 .projects {
-  display: flex;
+  @extend %flex;
   flex-wrap: wrap;
 }
 
@@ -10,7 +10,7 @@
 
 .projects__card {
   flex-basis: calc((100% - 3 * 30px) / 3);
-  background: var(--white-background);
+  background: var(--alt-title-color);
 }
 
 .projects__card-margin {
@@ -39,7 +39,7 @@
 
 .overlay {
   position: absolute;
-  display: flex;
+  @extend %flex;
   justify-content: center;
   align-items: center;
   width: 100%;

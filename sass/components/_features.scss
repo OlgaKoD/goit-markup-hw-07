@@ -1,5 +1,5 @@
 .features {
-  display: flex;
+  @extend %flex;
 }
 
 .features__position {
@@ -15,7 +15,7 @@
 }
 
 .features__icon-wrap {
-  display: flex;
+  @extend %flex;
   align-items: center;
   justify-content: center;
   padding-top: 25px;
