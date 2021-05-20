@@ -29,8 +29,7 @@
     box-shadow 250ms var(--cubic-bezier);
 
   &:hover,
-  &:focus,
-  &.current {
+  &:focus {
     background-color: var(--accent-color);
     color: var(--alt-title-color);
     cursor: pointer;
